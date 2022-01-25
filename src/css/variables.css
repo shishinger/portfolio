@@ -1,0 +1,11 @@
+:root {
+--bg: hsl(0, 0%, 95%);
+--text: #000000;
+--aside: hsl(215, 78%, 91%);
+--link: #fffde0;
+--bar: #FDB59F;
+--inner-top: inset 12px 8px 16px;
+--inner-bottom: inset -12px -8px 16px;
+--outer: 0px 10px 24px var(--sh);
+--sh: hsl(0, 0%, 80%);
+}

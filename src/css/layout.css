@@ -1,0 +1,24 @@
+.links {
+	position: sticky;
+	top: 1em;
+	align-self: start;
+	grid-column: 2 / 3;
+	grid-row: 1 / 1;
+	margin-top: 2em;
+	padding: 1em 1em 1em 2em;
+	background-color: var(--aside);
+	box-shadow: var(--inner-top) hsl(215, 78%, 93%), 
+		var(--inner-bottom) hsl(215, 95%, 88%), 
+		var(--outer);
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	font-weight: 500;
+}
+.portfolio + .portfolio {
+	margin-top: 5em;
+}
+.portfolio__list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2em;
+}

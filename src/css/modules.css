@@ -1,0 +1,124 @@
+.link {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 0.5em;
+	background-color: var(--bar);
+}
+.up {
+	position: fixed;
+	right: 2rem;
+	bottom: 2rem;
+	padding: 0.5rem;
+	border-radius: 50%;
+	background-color: #7492B3;
+	cursor: pointer;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	transform: scale(0);
+	opacity: 0.8;
+}
+.up svg {
+	stroke: var(--link);
+	stroke-width: 2; 
+	stroke-linecap: round; 
+	fill: transparent;
+}
+.up:hover {
+	opacity: 1;
+}
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 0.5em;
+}
+.social__item {
+	position: relative;
+	width: max-content;
+}
+.social__item::before {
+	content: "";
+	position: absolute;
+	inset: 50% -5% 0 -5%;
+	background-color: var(--link);
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.4s ease-in-out;
+	z-index: -1;
+}
+.social__item:hover::before {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+.card {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	column-gap: 2em;
+	padding: 2em;	
+	box-shadow: var(--inner-top) hsl(0, 0%, 100%), 
+		var(--inner-bottom) hsl(0, 10%, 90%), 
+		var(--outer);
+	border-radius: 2em;
+}
+@media (max-width: 1060px) {
+	.card {
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media (max-width: 700px) {
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+	main {
+		padding: 0 5%;
+	}
+	.links {
+		position: relative;
+		border-radius: 2em;
+		width: 95%;
+		margin-left: 1em;
+		z-index: 1;
+	}
+	.social {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		gap: 1em;
+	}
+}
+@media (max-width: 500px) {
+	.links {
+		margin: 0 0.5em;
+	}
+}
+.card__visual{
+	grid-row: 1 / 3;
+	transition: transform ease-in-out 0.4s;
+}
+.card__visual img {
+	border-radius: 0.5em;
+	box-shadow: var(--outer);
+	box-shadow: 0px 10px 24px hsl(0, 0%, 85%);
+}
+.card:hover .card__visual {
+	transform: scale(1.05);
+}
+.cp_embed_wrapper {
+	grid-row: 2 / 3;
+	grid-column: 1 / 3;
+}
