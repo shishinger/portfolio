@@ -1,169 +1,464 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Портфолио на позицию Junior Frontend Developer">
-	<title>Portfolio</title>
-</head>
-<body>
-	<aside class="links">
-		<ul class="social">
-			<li class="social__item"><a href="https://t.me/shishinger">Telegram</a></li>
-			<li class="social__item"><a href="https://hh.ru/resume/db5036daff098ea5b90039ed1f47426d4b5430">HeadHunter</a></li>
-			<li class="social__item"><a href="https://codepen.io/shishinger">CodePen</a></li>
-			<li class="social__item"><a href="https://github.com/shishinger">GitHub</a></li>
-			<li class="social__item"><a href="https://docs.google.com/document/d/1q6TRQIwMOhZdm_nG5Mi4D0HYV4uxCQfHA4ouyET0y3c/edit?usp=sharing">Резюме</a></li>
-		</ul>
-	</aside>
-	<main>
-		<h1>Портфолио</h1>
-		<section class="portfolio">
-			<h2>Верстка</h2>
-			<ul class="portfolio__list">
-				<li class="portfolio__item">
-					<article class="card">
-						<picture class="card__visual">
-							<source type="image/avif" srcset="../img/gllacy.avif 1x, ../img/gllacy@2x.avif 2x">
-							<source type="image/webp" srcset="../img/gllacy.webp 1x, ../img/gllacy@2x.webp 2x">
-							<img src="../img/gllacy.jpg" srcset="../img/gllacy@2x.jpg 2x" alt="">
-						</picture>
-						<h3 class="card__title">Gllacy</h3>
-						<div class="card__desc">
-							<p class="benefits">Учебный макет для верстки HTML Academy: магазин мороженого собственного производства.</p>
-							<p><b>Реализовано:</b></p>
-							<ul class="profit__list">
-								<li class="profit__item">Pug: включения, переменные, интерполяция, итерация, условия;</li>
-								<li class="profit__item">SCSS: вложенность, переменные, шаблоны, миксины;</li>
-								<li class="profit__item">JS: мобильное меню, всплывающие окна, пагинация, слайдер, числовой мульти-слайдер;</li>
-								<li class="profit__item">Тесты: валидация, переполняемость, адаптивность, Lighthouse;</li>
-							</ul>
-						</div>
-						<a href="/gllacy/" class="link" title="Посмотреть проект"></a>
-					</article>
-				</li>
-				<li class="portfolio__item">
-					<article class="card">
-						<picture class="card__visual">
-							<source type="image/avif" srcset="../img/blitz.avif 1x, ../img/blitz@2x.avif 2x">
-							<source type="image/webp" srcset="../img/blitz.webp 1x, ../img/blitz@2x.webp 2x">
-							<img src="../img/blitz.jpg" srcset="../img/blitz@2x.jpg 2x" alt="">
-						</picture>
-						<h3 class="card__title">Blitz</h3>
-						<div class="card__desc">
-							<p class="benefits">Макет для верстки: компания по управлению недвижимостью и финансами.</p>
-							<p><b>Реализовано:</b></p>
-							<ul class="profit__list">
-								<li class="profit__item">Pug: переменные, интерполяция, итерация, работа с JSON;</li>
-								<li class="profit__item">SCSS: вложенность, переменные, шаблоны, миксины, итерация;</li>
-								<li class="profit__item">JS: мобильное меню, слайдер;</li>
-								<li class="profit__item">Тесты: валидация, переполняемость, адаптивность, Lighthouse;</li>
-							</ul>
-						</div>
-						<a href="/blitz/" class="link" title="Посмотреть проект"></a>
-					</article>
-				</li>
-				<li class="portfolio__item">
-					<article class="card">
-						<picture class="card__visual">
-							<source type="image/avif" srcset="../img/freeplan.avif 1x, ../img/freeplan@2x.avif 2x">
-							<source type="image/webp" srcset="../img/freeplan.webp 1x, ../img/freeplan@2x.webp 2x">
-							<img src="../img/freeplan.jpg" srcset="../img/freeplan@2x.jpg 2x" alt="">
-						</picture>
-						<h3 class="card__title">Freeplan</h3>
-						<div class="card__desc">
-							<p class="benefits">Тестовое задание для верстки: студия дизайна интерьера.</p>
-							<p><b>Реализовано:</b></p>
-							<ul class="profit__list">
-								<li class="profit__item">Pug: включения, переменные, интерполяция, итерация, условия;</li>
-								<li class="profit__item">SCSS: вложенность, переменные, шаблоны, миксины;</li>
-								<li class="profit__item">JS: мобильное меню, всплывающая форма с тремя этапами;</li>
-								<li class="profit__item">Тесты: валидация, переполняемость, адаптивность, Lighthouse;</li>
-							</ul>
-						</div>
-						<a href="/freeplan/" class="link" title="Посмотреть проект"></a>
-					</article>
-				</li>
-			</ul>
-		</section>
-		<section class="portfolio">
-			<h2>Маленькие проекты</h2>
-			<ul class="portfolio__list">
-				<li class="portfolio__item">
-					<article class="card">
-						<h3 class="card__title">Gradient</h3>
-						<p class="codepen" data-height="300" data-class="codepen" data-zoom="0.5" data-theme-id="light" data-default-tab="js,result" data-slug-hash="VwMNzLd" data-preview="true" data-user="shishinger" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/shishinger/pen/VwMNzLd">
-							Gradient</a> by shishinger (<a href="https://codepen.io/shishinger">@shishinger</a>)
-							on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</article>
-				</li>
-				<li class="portfolio__item">
-					<article class="card">
-						<h3 class="card__title">Tab Bar</h3>
-						<p class="codepen" data-height="300" data-class="codepen" data-zoom="0.5" data-theme-id="light" data-default-tab="js,result" data-slug-hash="RwLmoqa" data-preview="true" data-user="shishinger" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/shishinger/pen/RwLmoqa">
-							Tab bar</a> by shishinger (<a href="https://codepen.io/shishinger">@shishinger</a>)
-							on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</article>
-				</li>
-				<li class="portfolio__item">
-					<article class="card">
-						<h3 class="card__title">Snow</h3>
-						<p class="codepen" data-height="300" data-class="codepen" data-zoom="0.5" data-theme-id="light" data-default-tab="js,result" data-slug-hash="GRMLEVw" data-preview="true" data-user="shishinger" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/shishinger/pen/GRMLEVw">
-							Snow</a> by shishinger (<a href="https://codepen.io/shishinger">@shishinger</a>)
-							on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</article>
-				</li>
-				<li class="portfolio__item">
-					<article class="card">
-						<h3 class="card__title">Canvas Motion</h3>
-						<p class="codepen" data-height="300" data-class="codepen" data-zoom="0.5" data-theme-id="light" data-default-tab="js,result" data-slug-hash="dyVENPG" data-preview="true" data-user="shishinger" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/shishinger/pen/dyVENPG">
-							Canvas motion</a> by shishinger (<a href="https://codepen.io/shishinger">@shishinger</a>)
-							on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</article>
-				</li>
-				<li class="portfolio__item">
-					<article class="card">
-						<h3 class="card__title">Rock-Paper-Scissors</h3>
-						<p class="codepen" data-height="300" data-class="codepen" data-zoom="0.5" data-theme-id="light" data-default-tab="js,result" data-slug-hash="OJxGgdr" data-preview="true" data-user="shishinger" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/shishinger/pen/OJxGgdr">
-							RockPaperScissors</a> by shishinger (<a href="https://codepen.io/shishinger">@shishinger</a>)
-							on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</article>
-				</li>
-				<li class="portfolio__item">
-					<article class="card">
-						<h3 class="card__title">Watch</h3>
-						<p class="codepen" data-height="300" data-class="codepen" data-zoom="0.5" data-theme-id="light" data-default-tab="js,result" data-slug-hash="JjrVJZW" data-preview="true" data-user="shishinger" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-							<span>See the Pen <a href="https://codepen.io/shishinger/pen/JjrVJZW">
-							Watch</a> by shishinger (<a href="https://codepen.io/shishinger">@shishinger</a>)
-							on <a href="https://codepen.io">CodePen</a>.</span>
-						</p>
-						<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-					</article>
-				</li>
-			</ul>
-		</section>
-	</main>
-	<button class="up" title="Наверх">
-		<svg class="svg-icon" viewBox="0 0 24 24" width="24" height="24">
-			<path d="M4 16L12 8L20 16" />
-		</svg>
-	</button>
-	<div class="bar"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Портфолио на позицию Junior Frontend Developer"
+    />
+    <meta name="theme-color" content="#f2f2f2" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <aside class="links">
+      <ul class="social">
+        <li class="social__item">
+          <a href="https://t.me/shishinger">Telegram</a>
+        </li>
+        <li class="social__item">
+          <a href="https://hh.ru/resume/db5036daff098ea5b90039ed1f47426d4b5430"
+            >HeadHunter</a
+          >
+        </li>
+        <li class="social__item">
+          <a href="https://codepen.io/shishinger">CodePen</a>
+        </li>
+        <li class="social__item">
+          <a href="https://github.com/shishinger">GitHub</a>
+        </li>
+        <li class="social__item">
+          <a
+            href="https://docs.google.com/document/d/1q6TRQIwMOhZdm_nG5Mi4D0HYV4uxCQfHA4ouyET0y3c/edit?usp=sharing"
+            >Резюме</a
+          >
+        </li>
+      </ul>
+    </aside>
+    <main>
+      <h1>Портфолио</h1>
+      <section class="portfolio">
+        <h2>Верстка</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <article class="card">
+              <picture class="card__visual">
+                <source
+                  type="image/avif"
+                  srcset="../img/ida.avif 1x, ../img/ida@2x.avif 2x"
+                />
+                <source
+                  type="image/webp"
+                  srcset="../img/ida.webp 1x, ../img/ida@2x.webp 2x"
+                />
+                <img
+                  src="../img/ida.jpg"
+                  srcset="../img/ida@2x.jpg 2x"
+                  width="447"
+                  height="235"
+                  alt=""
+                />
+              </picture>
+              <h3 class="card__title">Галерея товаров</h3>
+              <div class="card__desc">
+                <p class="benefits">Тестовое задание idaproject.</p>
+                <p><b>Реализовано:</b></p>
+                <ul class="profit__list">
+                  <li class="profit__item">
+                    Vue: реактивность, динамические стили, рендеринг списков,
+                    обработка пользовательских событий, хранение данных в
+                    <code>Local Storage</code>, использование
+                    <code>&#60;TransitionGroup&#62;</code>
+                  </li>
+                  <li class="profit__item">
+                    SCSS: вложенность, переменные, шаблоны, миксины;
+                  </li>
+                </ul>
+              </div>
+              <a
+                href="/idaproject_test/"
+                class="link"
+                title="Посмотреть проект"
+              ></a>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <picture class="card__visual">
+                <source
+                  type="image/avif"
+                  srcset="../img/gllacy.avif 1x, ../img/gllacy@2x.avif 2x"
+                />
+                <source
+                  type="image/webp"
+                  srcset="../img/gllacy.webp 1x, ../img/gllacy@2x.webp 2x"
+                />
+                <img
+                  src="../img/gllacy.jpg"
+                  srcset="../img/gllacy@2x.jpg 2x"
+                  width="447"
+                  height="235"
+                  loading="lazy"
+                  alt=""
+                />
+              </picture>
+              <h3 class="card__title">Gllacy</h3>
+              <div class="card__desc">
+                <p class="benefits">
+                  Учебный макет для верстки HTML Academy: магазин мороженого
+                  собственного производства.
+                </p>
+                <p><b>Реализовано:</b></p>
+                <ul class="profit__list">
+                  <li class="profit__item">
+                    Pug: включения, переменные, интерполяция, итерация, условия;
+                  </li>
+                  <li class="profit__item">
+                    SCSS: вложенность, переменные, шаблоны, миксины;
+                  </li>
+                  <li class="profit__item">
+                    JS: мобильное меню, всплывающие окна, пагинация, слайдер,
+                    числовой мульти-слайдер;
+                  </li>
+                  <li class="profit__item">
+                    Тесты: валидация, переполняемость, адаптивность, Lighthouse;
+                  </li>
+                </ul>
+              </div>
+              <a href="/gllacy/" class="link" title="Посмотреть проект"></a>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <picture class="card__visual">
+                <source
+                  type="image/avif"
+                  srcset="../img/blitz.avif 1x, ../img/blitz@2x.avif 2x"
+                />
+                <source
+                  type="image/webp"
+                  srcset="../img/blitz.webp 1x, ../img/blitz@2x.webp 2x"
+                />
+                <img
+                  src="../img/blitz.jpg"
+                  srcset="../img/blitz@2x.jpg 2x"
+                  width="447"
+                  height="235"
+                  loading="lazy"
+                  alt=""
+                />
+              </picture>
+              <h3 class="card__title">Blitz</h3>
+              <div class="card__desc">
+                <p class="benefits">
+                  Макет для верстки: компания по управлению недвижимостью и
+                  финансами.
+                </p>
+                <p><b>Реализовано:</b></p>
+                <ul class="profit__list">
+                  <li class="profit__item">
+                    Pug: переменные, интерполяция, итерация, работа с JSON;
+                  </li>
+                  <li class="profit__item">
+                    SCSS: вложенность, переменные, шаблоны, миксины, итерация;
+                  </li>
+                  <li class="profit__item">JS: мобильное меню, слайдер;</li>
+                  <li class="profit__item">
+                    Тесты: валидация, переполняемость, адаптивность, Lighthouse;
+                  </li>
+                </ul>
+              </div>
+              <a href="/blitz/" class="link" title="Посмотреть проект"></a>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <picture class="card__visual">
+                <source
+                  type="image/avif"
+                  srcset="../img/freeplan.avif 1x, ../img/freeplan@2x.avif 2x"
+                />
+                <source
+                  type="image/webp"
+                  srcset="../img/freeplan.webp 1x, ../img/freeplan@2x.webp 2x"
+                />
+                <img
+                  src="../img/freeplan.jpg"
+                  srcset="../img/freeplan@2x.jpg 2x"
+                  width="447"
+                  height="235"
+                  loading="lazy"
+                  alt=""
+                />
+              </picture>
+              <h3 class="card__title">Freeplan</h3>
+              <div class="card__desc">
+                <p class="benefits">
+                  Тестовое задание для верстки: студия дизайна интерьера.
+                </p>
+                <p><b>Реализовано:</b></p>
+                <ul class="profit__list">
+                  <li class="profit__item">
+                    Pug: включения, переменные, интерполяция, итерация, условия;
+                  </li>
+                  <li class="profit__item">
+                    SCSS: вложенность, переменные, шаблоны, миксины;
+                  </li>
+                  <li class="profit__item">
+                    JS: мобильное меню, всплывающая форма с тремя этапами;
+                  </li>
+                  <li class="profit__item">
+                    Тесты: валидация, переполняемость, адаптивность, Lighthouse;
+                  </li>
+                </ul>
+              </div>
+              <a href="/freeplan/" class="link" title="Посмотреть проект"></a>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="portfolio">
+        <h2>Маленькие проекты</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <article class="card">
+              <h3 class="card__title">Snake Game</h3>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="light"
+                data-default-tab="js,result"
+                data-slug-hash="gOXmqrX"
+                data-preview="true"
+                data-user="shishinger"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/shishinger/pen/gOXmqrX"> Snake</a>
+                  by shishinger (<a href="https://codepen.io/shishinger"
+                    >@shishinger</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <h3 class="card__title">Memory Card Game</h3>
+              <p
+                class="codepen"
+                data-height="300"
+                data-theme-id="light"
+                data-default-tab="js,result"
+                data-slug-hash="gOXRamB"
+                data-preview="true"
+                data-user="shishinger"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/shishinger/pen/gOXRamB">
+                    Memory</a
+                  >
+                  by shishinger (<a href="https://codepen.io/shishinger"
+                    >@shishinger</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <h3 class="card__title">Gradient</h3>
+              <p
+                class="codepen"
+                data-height="300"
+                data-class="codepen"
+                data-zoom="0.5"
+                data-theme-id="light"
+                data-default-tab="js,result"
+                data-slug-hash="VwMNzLd"
+                data-preview="true"
+                data-user="shishinger"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/shishinger/pen/VwMNzLd">
+                    Gradient</a
+                  >
+                  by shishinger (<a href="https://codepen.io/shishinger"
+                    >@shishinger</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <h3 class="card__title">Snow</h3>
+              <p
+                class="codepen"
+                data-height="300"
+                data-class="codepen"
+                data-zoom="0.5"
+                data-theme-id="light"
+                data-default-tab="js,result"
+                data-slug-hash="GRMLEVw"
+                data-preview="true"
+                data-user="shishinger"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/shishinger/pen/GRMLEVw"> Snow</a>
+                  by shishinger (<a href="https://codepen.io/shishinger"
+                    >@shishinger</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <h3 class="card__title">Rock-Paper-Scissors</h3>
+              <p
+                class="codepen"
+                data-height="300"
+                data-class="codepen"
+                data-zoom="0.5"
+                data-theme-id="light"
+                data-default-tab="js,result"
+                data-slug-hash="OJxGgdr"
+                data-preview="true"
+                data-user="shishinger"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/shishinger/pen/OJxGgdr">
+                    RockPaperScissors</a
+                  >
+                  by shishinger (<a href="https://codepen.io/shishinger"
+                    >@shishinger</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </article>
+          </li>
+          <li class="portfolio__item">
+            <article class="card">
+              <h3 class="card__title">Watch</h3>
+              <p
+                class="codepen"
+                data-height="300"
+                data-class="codepen"
+                data-zoom="0.5"
+                data-theme-id="light"
+                data-default-tab="js,result"
+                data-slug-hash="JjrVJZW"
+                data-preview="true"
+                data-user="shishinger"
+                style="
+                  height: 300px;
+                  box-sizing: border-box;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 2px solid;
+                  margin: 1em 0;
+                  padding: 1em;
+                "
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/shishinger/pen/JjrVJZW"> Watch</a>
+                  by shishinger (<a href="https://codepen.io/shishinger"
+                    >@shishinger</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://cpwebassets.codepen.io/assets/embed/ei.js"
+              ></script>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <button class="up" title="Наверх">
+      <svg class="svg-icon" viewBox="0 0 24 24" width="24" height="24">
+        <path d="M4 16L12 8L20 16" />
+      </svg>
+    </button>
+    <div class="bar"></div>
+  </body>
 </html>
