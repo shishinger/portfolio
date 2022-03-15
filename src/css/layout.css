@@ -7,8 +7,8 @@
   margin-top: 2em;
   padding: 1em 1em 1em 2em;
   background-color: var(--aside);
-  box-shadow: var(--inner-top) hsl(215, 78%, 93%),
-    var(--inner-bottom) hsl(215, 95%, 88%), var(--outer);
+  box-shadow: var(--inner-top) #d6e5fa, var(--inner-btm) #bdd6f9,
+    var(--outer) #cadffb;
   border-top-left-radius: 2em;
   border-bottom-left-radius: 2em;
   font-weight: 500;
