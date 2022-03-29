@@ -1,10 +1,9 @@
 :root {
-  --bg: #f2f2f2;
+  --bg: #f5f9ff;
   --text: #000000;
   --aside: #d6e5fa;
   --link: #fffde0;
   --bar: #fdb59f;
-  --inner-btm: inset 0 -10px 15px 0;
-  --inner-top: inset 12px 8px 16px;
-  --outer: 0 35px 65px 0;
+  --inner-btm: inset -5px 5px 22px;
+  --inner-top: inset 5px -5px 22px;
 }

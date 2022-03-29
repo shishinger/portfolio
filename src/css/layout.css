@@ -7,7 +7,7 @@
   margin-top: 2em;
   padding: 1em 1em 1em 2em;
   background-color: var(--aside);
-  box-shadow: var(--inner-top) #d6e5fa, var(--inner-btm) #bdd6f9,
+  box-shadow: var(--inner-top) #bccadc, var(--inner-btm) #f0ffff,
     var(--outer) #cadffb;
   border-top-left-radius: 2em;
   border-bottom-left-radius: 2em;

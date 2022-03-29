@@ -67,9 +67,9 @@
   align-items: center;
   column-gap: 2em;
   padding: 2em;
-  box-shadow: var(--outer) #ffe5e5, var(--inner-top) #fff,
-    var(--inner-btm) #e1e1e1;
+  box-shadow: var(--inner-btm) #d8dbe0, var(--inner-top) #ffffff;
   border-radius: 2em;
+  background: #f5f9ff;
 }
 @media (min-width: 2000px) {
   .card {
